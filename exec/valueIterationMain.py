@@ -1,4 +1,6 @@
 import numpy as np
+import sys
+sys.path.append("../")
 from valueIteration import BellmanUpdate, ValueIteration, GetPolicy
 from drawHeatMapWithWalls import drawFinalMap
 
